@@ -1,0 +1,38 @@
+.tabs {
+  /* padding: 10px; */
+}
+
+.tab-list {
+  display: flex;
+}
+
+.tabs-tab {
+  padding: 10px;
+  border-bottom: 4px solid blue;
+  cursor: pointer;
+}
+
+.tabs-tab:first-child {
+  margin-left: unset;
+}
+
+.tabs-tab--active {
+  border-bottom: 4px solid blue;
+}
+
+.tabs-tab--inactive {
+  border-bottom: 4px solid gray;
+}
+
+.tabs-tab--disabled {
+  border-bottom: 4px solid lightgrey;
+  cursor: unset;
+}
+
+.tabs-tab {
+  margin-left: 12px;
+}
+
+.tabs-panel {
+  margin-top: 10px;
+}

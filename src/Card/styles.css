@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid rgba(207, 207, 207, 0.5);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgba(207, 207, 207, 0.5);
+  /* padding: 10px; */
+}
+
+.card-body {
+  /* border: 1px dashed red; */
+  padding: 10px;
+}
+
+.card-footer {
+  /* border: 1px dashed red; */
+  padding: 10px;
+}
+
+.card-header {
+  /* border: 1px dashed red; */
+  padding: 10px;
+}
